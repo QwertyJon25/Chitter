@@ -41,43 +41,43 @@
         {
             "userId": 1,
             "id": 3,
-            "content": "Just tried to make on this sick honey, but got a drink in my face. BROS BEFORE HOE$$$$!!!",
-            "likes": 4
+            "content": "Y'all mind if I have a good day?",
+            "likes": 22
         },
         {
             "userId": 2,
             "id": 1,
-            "content": "New Season of Boruto just dropped!!!1111",
+            "content": "I don't know how people eat fast food?? So gross! I'll take my organic grassfed beef from Whole Foods, thank you very much!",
             "likes": 10
         },
         {
             "userId": 2,
             "id": 2,
-            "content": "This comic-con is gonna be ill! Paid someone to set up my Adachi cosplay. Gonna get so many likes!!!11",
+            "content": "When it comes to making important decisions I prefer to sit on the fence! It's much safer than committing to one side. Honestly, why can't we just keep the status quo??",
             "likes": 15
         },
         {
             "userId": 2,
             "id": 3,
-            "content": "This girl didn't get my humor. I now hate the entirety of the female sex. I'm winning at life.",
+            "content": "I love spooky season! Pumpkin spice latte here I come!",
             "likes":34
         },
         {
             "userId": 3,
             "id": 1,
-            "content": "Fresh and limber after my hot yoga class. Bunch of peasants protesting my gym. Get over it, child labor is useful.",
+            "content": "If you seem to have a lot of \"fake friends\", it might be time for some self-reflection. The only common denominator is you!",
             "likes":49
         },
         {
             "userId": 3,
             "id": 2,
-            "content": "Wrecked my JAG doing donuts. Something stupid called transmission. Just going to get Daddy to buy me another one. Eighth time's the charm!",
+            "content": "Just got a crazy pump at the gym today thanks to a new routine I've started! If you're having trouble at the gym and need some advice, hit my DMs!!",
             "likes":20
         },
         {
             "userId": 3,
             "id": 3,
-            "content": "What is it with all of these peasants complaining about minimum wage. Just pull yourself up by the bootstraps, like a Patriot. #PerpetutingTheMythOfExceptionalism",
+            "content": "Recently graduated a programming bootcamp and landed a really solid job! There was highs and lows, but I met a lot of cool people who helped me through it! Never stop growing!!",
             "likes":236
         },
         {
@@ -101,7 +101,7 @@
         {
             "userId": 4,
             "id": 4,
-            "content": "hey babe, u up? Oh wait, this ain't my texts.",
+            "content": "What is it with all of these peasants complaining about minimum wage. Just pull yourself up by the bootstraps, like a Patriot. #PerpetutingTheMythOfExceptionalism",
             "likes":0
         }
     ]
