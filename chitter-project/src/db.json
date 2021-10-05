@@ -1,0 +1,108 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "username": "Average Joe",
+            "profilePic": "",
+            "bio": "Just an everyday guy trying to make ends meet."
+        },
+        {
+            "userId": 2,
+            "username": "NPC_001",
+            "profilePic": "",
+            "bio": "I have no opinions of my own and have no real personality!"
+        },
+        {
+            "userId": 3,
+            "username": "Giga Chad",
+            "profilePic": "",
+            "bio": "Just enjoying life and living it on my own terms!!"
+        },
+        {
+            "userId": 4,
+            "username": "Big-time Idiot",
+            "profilePic": "",
+            "bio": "I love to voice my terrible opinions. Also, I have really ice-cold takes!"
+        }
+    ],
+    "posts": [
+        {
+            "userId": 1,
+            "id": 1,
+            "content": "This is a post!",
+            "likes": 12
+        },
+        {
+            "userId": 1,
+            "id": 2,
+            "content": "This is a post!",
+            "likes": 2
+        },
+        {
+            "userId": 1,
+            "id": 3,
+            "content": "This is a post!",
+            "likes": 4
+        },
+        {
+            "userId": 2,
+            "id": 1,
+            "content": "This is a post!",
+            "likes": 10
+        },
+        {
+            "userId": 2,
+            "id": 2,
+            "content": "This is a post!",
+            "likes": 15
+        },
+        {
+            "userId": 2,
+            "id": 3,
+            "content": "This is a post!",
+            "likes":34
+        },
+        {
+            "userId": 3,
+            "id": 1,
+            "content": "This is a post!",
+            "likes":49
+        },
+        {
+            "userId": 3,
+            "id": 2,
+            "content": "This is a post!",
+            "likes":20
+        },
+        {
+            "userId": 3,
+            "id": 3,
+            "content": "This is a post!",
+            "likes":236
+        },
+        {
+            "userId": 4,
+            "id": 1,
+            "content": "This is a post!",
+            "likes":0
+        },
+        {
+            "userId": 4,
+            "id": 2,
+            "content": "This is a post!",
+            "likes":1
+        },
+        {
+            "userId": 4,
+            "id": 3,
+            "content": "This is a post!",
+            "likes":1
+        },
+        {
+            "userId": 4,
+            "id": 4,
+            "content": "This is a post!",
+            "likes":0
+        }
+    ]
+}

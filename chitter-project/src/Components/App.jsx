@@ -1,8 +1,9 @@
 import React from "react";
 import './App.css';
-import Main from "./Main.jsx"
+import Main from "../Main.jsx"
 import NavMenu from ">/NavMenu.jsx";
-import UserList from "./UserList.jsx";
+import UserList from "../UserList.jsx";
+import {}
 
 function App() {
 
