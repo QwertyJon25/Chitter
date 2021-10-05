@@ -29,79 +29,79 @@
         {
             "userId": 1,
             "id": 1,
-            "content": "This is a post!",
+            "content": "On my way to my corner bodega to buy some Marby Reds. Bodega cats are LIFE!",
             "likes": 12
         },
         {
             "userId": 1,
             "id": 2,
-            "content": "This is a post!",
+            "content": "My aunt sent me this sick Hawaiian shirt. CASH ME OUTSIDE!",
             "likes": 2
         },
         {
             "userId": 1,
             "id": 3,
-            "content": "This is a post!",
+            "content": "Just tried to make on this sick honey, but got a drink in my face. BROS BEFORE HOE$$$$!!!",
             "likes": 4
         },
         {
             "userId": 2,
             "id": 1,
-            "content": "This is a post!",
+            "content": "New Season of Boruto just dropped!!!1111",
             "likes": 10
         },
         {
             "userId": 2,
             "id": 2,
-            "content": "This is a post!",
+            "content": "This comic-con is gonna be ill! Paid someone to set up my Adachi cosplay. Gonna get so many likes!!!11",
             "likes": 15
         },
         {
             "userId": 2,
             "id": 3,
-            "content": "This is a post!",
+            "content": "This girl didn't get my humor. I now hate the entirety of the female sex. I'm winning at life.",
             "likes":34
         },
         {
             "userId": 3,
             "id": 1,
-            "content": "This is a post!",
+            "content": "Fresh and limber after my hot yoga class. Bunch of peasants protesting my gym. Get over it, child labor is useful.",
             "likes":49
         },
         {
             "userId": 3,
             "id": 2,
-            "content": "This is a post!",
+            "content": "Wrecked my JAG doing donuts. Something stupid called transmission. Just going to get Daddy to buy me another one. Eighth time's the charm!",
             "likes":20
         },
         {
             "userId": 3,
             "id": 3,
-            "content": "This is a post!",
+            "content": "What is it with all of these peasants complaining about minimum wage. Just pull yourself up by the bootstraps, like a Patriot. #PerpetutingTheMythOfExceptionalism",
             "likes":236
         },
         {
             "userId": 4,
             "id": 1,
-            "content": "This is a post!",
+            "content": "COMPUTER DIED, HIT ME UP",
             "likes":0
         },
         {
             "userId": 4,
             "id": 2,
-            "content": "This is a post!",
+            "content": "USING MY MOM'S COMPUTER, HIT ME UP",
             "likes":1
         },
         {
             "userId": 4,
             "id": 3,
-            "content": "This is a post!",
+            "content": "OUT OF PIZZA ROLLS. GONNA GO VOTE RED",
             "likes":1
         },
         {
             "userId": 4,
             "id": 4,
-            "content": "This is a post!",
+            "content": "hey babe, u up? Oh wait, this ain't my texts.",
             "likes":0
         }
     ]
