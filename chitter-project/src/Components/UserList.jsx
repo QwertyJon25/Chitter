@@ -7,7 +7,7 @@ export default function UserList({ users }) {
     
     return (
         <div>
-            <ul className="cards">{ users.map(userObj => <UserCard 
+            <ul className="user-cards">{ users.map(userObj => <UserCard 
             key={userObj}
             userData={userObj}
             />)}

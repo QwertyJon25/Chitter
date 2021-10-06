@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
     <NavMenu currentUser={currentUser} setFormData={setFormData} formData={formData}/>
-    <Main />
+    <Main posts={posts} users={users}/>
     <UserList users={users}/>
     </div>
   );
