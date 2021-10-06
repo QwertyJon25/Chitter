@@ -33,7 +33,7 @@ function App() {
     <div className="App">
     <NavMenu currentUser={currentUser} setFormData={setFormData} formData={formData}/>
     <Main />
-    <UserList />
+    <UserList users={users}/>
     </div>
   );
 }
