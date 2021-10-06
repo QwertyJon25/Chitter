@@ -8,7 +8,8 @@ export default function Main() {
     
     return (
         <div>
-            
+            <UserInfo />
+            <MessageCard />
         </div>
     )
 }

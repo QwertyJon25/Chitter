@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function NavMenu({ currentUser, setFormData, formData }) {
 
-    // function handleSubmit(event) {
-    //     event.preventDefault();
-    //   }
+    function handleSubmit(event) {
+        event.preventDefault();
+      }
       
-    //   function handleChange(event) {
-    //     const key = event.target.id
-    //     const value = event.target.value
+      function handleChange(event) {
+        const key = event.target.id
+        const value = event.target.value
         
-    //     setFormData({ 
-    //       ...formData, 
-    //       [key]: value
-    //     })
-    //   }
+        setFormData({ 
+          ...formData, 
+          [key]: value
+        })
+      }
 
     return (
         <div>
@@ -27,7 +27,7 @@ export default function NavMenu({ currentUser, setFormData, formData }) {
                 <input type="submit" value="Sign Up" />
             </form>
             <button>Hide Form</button>
-            {/* <img src="" alt="user image"></img> */}
+            <img src="" alt="user image"></img>
             <button>Sign Out</button>
         </div>
     )
