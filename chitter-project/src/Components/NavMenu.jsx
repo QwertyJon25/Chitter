@@ -18,17 +18,21 @@ export default function NavMenu({ currentUser, setFormData, formData }) {
 
     return (
         <div>
-            <button>Home</button>
+            
             <form >
                 <h2>Sign Up!</h2>
+                <br/>
                 <input id="username" type="text" placeholder="Enter username" />
+                <br/>
                 <input id="profilePic" type="text" placeholder="Enter a profile picture" />
+                <br/>
                 <textarea id="bio" type="text" placeholder="Enter a bio" rows={3} />
+                <br/>
                 <input type="submit" value="Sign Up" />
+                <button>Hide Form</button>
             </form>
-            <button>Hide Form</button>
-            <img src="" alt="user image"></img>
-            <button>Sign Out</button>
+            <br/>
+            <button>Home</button>
         </div>
     )
 }

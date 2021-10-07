@@ -1,16 +1,16 @@
-import React from 'react'
+// import React from 'react'
 
-export default function UserInfo() {
-
+// export default function UserInfo({userData}) {
+//     const {username, profilePic, bio} = userData
 
     
-    return (
-        <div>
-            <img src={profilePic} alt={username}/>
-            <h4>{username}</h4>
-            <h5>{bio}</h5>
-            <h6>Following Count</h6>
-            
-        </div>
-    )
-}
+//     return (
+//         <div>
+//             <img src={profilePic} alt={username}/>
+//             <span>
+//                 <h1>{username}</h1>
+//             </span>
+//             <h5>{bio}</h5>
+//         </div>
+//     )
+// }

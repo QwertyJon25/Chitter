@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
-import Main from "../Main.jsx"
-import NavMenu from ">/NavMenu.jsx";
-import UserList from "../UserList.jsx";
+import NavMenu from "./NavMenu";
+import Main from "./Main"
+import UserList from "./UserList";
 
 function App() {
   //State Variables for JSON data
@@ -23,7 +23,9 @@ function App() {
     fetch("http://localhost:6001/users")
     .then((res) => res.json())
     .then((userData) => setUsers(userData));
+  }, [])
 
+  useEffect(() => {
     fetch("http://localhost:6001/posts")
     .then((res) => res.json())
     .then((postData) => setPosts(postData));
@@ -31,15 +33,14 @@ function App() {
 
   return (
     <div className="App">
-    <NavMenu currentUser={currentUser} setFormData={setFormData} formData={formData}/>
-    <Main posts={posts} users={users}/>
-    <UserList users={users}/>
+    <NavMenu currentUser={currentUser} setFormData={setFormData} formData={formData} />
+    <Main users={users} posts={posts} />
+    <UserList users={users} />
     </div>
   );
 }
 
 export default App;
-
 
 // function addPoem(newPoem){
 //   fetch("http://localhost:8004/poems", {

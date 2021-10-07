@@ -1,28 +1,22 @@
 import React from 'react'
 import MessageCard from "./MessageCard.jsx";
-import UserInfo from "./UserInfo";
+//import UserInfo from "./UserInfo";
 
-export default function Main({ posts, users }) {
-
-    
+export default function Main({ users, posts }) {
+    const postsArray = posts.map(postObj => {
+        return( 
+            <MessageCard 
+                key={postObj.id}  
+                user={users.find(user => user.userId === postObj.userId)} 
+                postData={postObj} 
+            />
+        )
+    })
     return (
-        <>
-            <div><ul className="user-info">
-            { users.map(userObj => <UserInfo
-            key={userObj}
-            userData={userObj}
-            posts={posts}
-            />)}
-            </ul>
-            </div>
-            <div>
-            <ul className="message-cards">{ posts.map(postObj => <MessageCard 
-            key={postObj}
-            postData={postObj}
-            users={users}
-            />)}
-            </ul>
-            </div>
-        </>
+        <div>
+            {postsArray}
+        </div>
     )
 }
+
+//<UserInfo />
