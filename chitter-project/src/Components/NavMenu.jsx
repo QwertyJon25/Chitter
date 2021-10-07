@@ -1,7 +1,7 @@
 import React from 'react'
 import NewUserForm from "./NewUserForm"
 
-export default function NavMenu({newUser, handleSubmit, handleChange}) {
+export default function NavMenu({newUser, handleSubmit, handleChange }) {
   return (
     <div>
         <NewUserForm 

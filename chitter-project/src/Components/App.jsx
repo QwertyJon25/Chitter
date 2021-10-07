@@ -3,6 +3,8 @@ import NavMenu from "./NavMenu";
 import Main from "./Main"
 import UserList from "./UserList";
 
+
+
 function App() {
   //State Variables for JSON data:
   const [users, setUsers] = useState([]);
@@ -12,6 +14,9 @@ function App() {
   //const [currentUser, setCurrentUser] = useState({})
 
   //State Variable for a new user:
+const [currentUser, setCurrentUser] = useState(-1)
+
+
   const [newUser, setNewUser] = useState({
     userId: 5,
     username:"",
@@ -72,12 +77,18 @@ function App() {
       newUser={newUser}
       handleSubmit={handleSubmit}
       handleChange={handleChange}
+      currentUser={currentUser} 
     />
     <Main 
       users={users} 
       posts={posts} 
+      setCurrentUser={setCurrentUser} 
+      currentUser={currentUser}
     />
-    <UserList users={users} />
+    <UserList users={users}
+    currentUser={currentUser}
+    setCurrentUser={setCurrentUser}
+    />
     </div>
   );
 }
