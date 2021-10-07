@@ -1,25 +1,29 @@
 import React from 'react'
+import NewUserForm from "./NewUserForm"
 
-export default function NavMenu({ currentUser, setFormData, formData }) {
+export default function NavMenu({ currentUser, setFormData, formData, users, setUsers }) {
 
-    function handleSubmit(event) {
-        event.preventDefault();
-      }
+  const addNewUser = (newUserObj) => {
+    setUsers((prevArray) => [...prevArray, newUserObj])
+  }
+
+    // function handleSubmit(event) {
+    //     event.preventDefault();
+    //   }
       
-      function handleChange(event) {
-        const key = event.target.id
-        const value = event.target.value
+    //   function handleChange(event) {
+    //     const key = event.target.id
+    //     const value = event.target.value
         
-        setFormData({ 
-          ...formData, 
-          [key]: value
-        })
-      }
+    //     setFormData({ 
+    //       ...formData, 
+    //       [key]: value
+    //     })
+    //   }
 
     return (
         <div>
-            
-            <form >
+            {/* <form >
                 <h2>Sign Up!</h2>
                 <br/>
                 <input id="username" type="text" placeholder="Enter username" />
@@ -30,7 +34,8 @@ export default function NavMenu({ currentUser, setFormData, formData }) {
                 <br/>
                 <input type="submit" value="Sign Up" />
                 <button>Hide Form</button>
-            </form>
+            </form> */}
+            <NewUserForm addNewUser={addNewUser}/>
             <br/>
             <button>Home</button>
         </div>

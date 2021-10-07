@@ -19,6 +19,8 @@ function App() {
   });
 
 
+
+
   useEffect(() => {
     fetch("http://localhost:6001/users")
     .then((res) => res.json())
@@ -33,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-    <NavMenu currentUser={currentUser} setFormData={setFormData} formData={formData} />
+    <NavMenu currentUser={currentUser} setFormData={setFormData} formData={formData} users={users} setUsers={setUsers} />
     <Main users={users} posts={posts} />
     <UserList users={users} />
     </div>
