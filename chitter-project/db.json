@@ -1,108 +1,132 @@
 {
-    "users": [
-        {
-            "userId": 1,
-            "username": "Average Joe",
-            "profilePic": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F03%2F09%2Fchihuahua-light-grey-floor-1900204918-2000.jpg",
-            "bio": "Just an everyday guy trying to make ends meet."
-        },
-        {
-            "userId": 2,
-            "username": "NPC_001",
-            "profilePic": "https://s36700.pcdn.co/wp-content/uploads/2018/09/black-and-tan-chiahuahua-600x400.jpg.optimal.jpg",
-            "bio": "I have no opinions of my own and have no real personality!"
-        },
-        {
-            "userId": 3,
-            "username": "Giga Chad",
-            "profilePic": "https://www.scotsman.com/webimg/b25lY21zOjk5ZDQ2NzY0LTBhNzMtNDM4ZS04ZmNjLTdhYjE1OWYzZDQ1OTo2MzViZjQzZC1iYTdhLTQ5NTktODBlNi05OTc3NWQ4NDJiM2Q=.jpg?width=2048&enable=upscale",
-            "bio": "Just enjoying life and living it on my own terms!!"
-        },
-        {
-            "userId": 4,
-            "username": "Big-time Idiot",
-            "profilePic": "https://www.k9ofmine.com/wp-content/uploads/2018/01/types-of-chihuahuas-1150x700.jpg",
-            "bio": "I love to voice my terrible opinions. Also, I have really ice-cold takes!"
-        }
-    ],
-    "posts": [
-        {
-            "userId": 1,
-            "id": 1,
-            "content": "On my way to my corner bodega to buy some Marby Reds. Bodega cats are LIFE!",
-            "likes": 12
-        },
-        {
-            "userId": 1,
-            "id": 2,
-            "content": "My aunt sent me this sick Hawaiian shirt. CASH ME OUTSIDE!",
-            "likes": 2
-        },
-        {
-            "userId": 1,
-            "id": 3,
-            "content": "Y'all mind if I have a good day?",
-            "likes": 22
-        },
-        {
-            "userId": 2,
-            "id": 1,
-            "content": "I don't know how people eat fast food?? So gross! I'll take my organic grassfed beef from Whole Foods, thank you very much!",
-            "likes": 10
-        },
-        {
-            "userId": 2,
-            "id": 2,
-            "content": "When it comes to making important decisions I prefer to sit on the fence! It's much safer than committing to one side. Honestly, why can't we just keep the status quo??",
-            "likes": 15
-        },
-        {
-            "userId": 2,
-            "id": 3,
-            "content": "I love spooky season! Pumpkin spice latte here I come!",
-            "likes":34
-        },
-        {
-            "userId": 3,
-            "id": 1,
-            "content": "If you seem to have a lot of \"fake friends\", it might be time for some self-reflection. The only common denominator is you!",
-            "likes":49
-        },
-        {
-            "userId": 3,
-            "id": 2,
-            "content": "Just got a crazy pump at the gym today thanks to a new routine I've started! If you're having trouble at the gym and need some advice, hit my DMs!!",
-            "likes":20
-        },
-        {
-            "userId": 3,
-            "id": 3,
-            "content": "Recently graduated a programming bootcamp and landed a really solid job! There was highs and lows, but I met a lot of cool people who helped me through it! Never stop growing!!",
-            "likes":236
-        },
-        {
-            "userId": 4,
-            "id": 1,
-            "content": "I love, love, LOVE generalizing! It's easy and doesn't require too much thought!",
-            "likes":0
-        },
-        {
-            "userId": 4,
-            "id": 2,
-            "content": "I hate seeing my niche hobbies getting popular. It annoys me seeing other people getting to enjoy what I love. BRB gotta go gatekeep.",
-            "likes":1
-        },
-        {
-            "userId": 4,
-            "id": 3,
-            "content": "Jeff Bezos is honestly such a great guy. Why does he get so much hate?? He's worked hard to become the richest man in the world and he treats his people so good! He's never exploited anybody a day in his life!!1!",
-            "likes":1
-        },
-        {
-            "userId": 4,
-            "id": 4,
-            "content": "What is it with all of these peasants complaining about minimum wage. Just pull yourself up by the bootstraps, like a true red-blooded American! #PerpetutingTheMythOfExceptionalism",
-            "likes":0
-        }
-    ]
+  "users": [
+    {
+      "userId": 1,
+      "username": "Average Joe",
+      "profilePic": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F03%2F09%2Fchihuahua-light-grey-floor-1900204918-2000.jpg",
+      "bio": "Just an everyday guy trying to make ends meet.",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "username": "NPC_001",
+      "profilePic": "https://s36700.pcdn.co/wp-content/uploads/2018/09/black-and-tan-chiahuahua-600x400.jpg.optimal.jpg",
+      "bio": "I have no opinions of my own and have no real personality!",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "username": "Giga Chad",
+      "profilePic": "https://www.scotsman.com/webimg/b25lY21zOjk5ZDQ2NzY0LTBhNzMtNDM4ZS04ZmNjLTdhYjE1OWYzZDQ1OTo2MzViZjQzZC1iYTdhLTQ5NTktODBlNi05OTc3NWQ4NDJiM2Q=.jpg?width=2048&enable=upscale",
+      "bio": "Just enjoying life and living it on my own terms!!",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "username": "Big-time Idiot",
+      "profilePic": "https://www.k9ofmine.com/wp-content/uploads/2018/01/types-of-chihuahuas-1150x700.jpg",
+      "bio": "I love to voice my terrible opinions. Also, I have really ice-cold takes!",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "username": "The Guy",
+      "profilePic": "https://external-preview.redd.it/3eZ6yEFaOdmKRX1g_Z0w4XIffdWH600CWAgCsTQLg4I.jpg?auto=webp&s=5933fc31cd6c675056ce8439ed7c71fca2473b7c",
+      "bio": "Cybernetic Warlord/Game Master",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "postId": 1,
+      "content": "On my way to my corner bodega to buy some Marby Reds. Bodega cats are LIFE!",
+      "likes": 12,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "content": "My aunt sent me this sick Hawaiian shirt. CASH ME OUTSIDE!",
+      "likes": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "postId": 3,
+      "content": "Y'all mind if I have a good day?",
+      "likes": 22,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "postId": 1,
+      "content": "I don't know how people eat fast food?? So gross! I'll take my organic grassfed beef from Whole Foods, thank you very much!",
+      "likes": 10,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "postId": 2,
+      "content": "When it comes to making important decisions I prefer to sit on the fence! It's much safer than committing to one side. Honestly, why can't we just keep the status quo??",
+      "likes": 15,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "postId": 3,
+      "content": "I love spooky season! Pumpkin spice latte here I come!",
+      "likes": 34,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "postId": 1,
+      "content": "If you seem to have a lot of \"fake friends\", it might be time for some self-reflection. The only common denominator is you!",
+      "likes": 49,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "postId": 2,
+      "content": "Just got a crazy pump at the gym today thanks to a new routine I've started! If you're having trouble at the gym and need some advice, hit my DMs!!",
+      "likes": 20,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "postId": 3,
+      "content": "Recently graduated a programming bootcamp and landed a really solid job! There was highs and lows, but I met a lot of cool people who helped me through it! Never stop growing!!",
+      "likes": 236,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "postId": 1,
+      "content": "I love, love, LOVE generalizing! It's easy and doesn't require too much thought!",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "postId": 2,
+      "content": "I hate seeing my niche hobbies getting popular. It annoys me seeing other people getting to enjoy what I love. BRB gotta go gatekeep.",
+      "likes": 1,
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "postId": 3,
+      "content": "Jeff Bezos is honestly such a great guy. Why does he get so much hate?? He's worked hard to become the richest man in the world and he treats his people so good! He's never exploited anybody a day in his life!!1!",
+      "likes": 1,
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "postId": 4,
+      "content": "What is it with all of these peasants complaining about minimum wage. Just pull yourself up by the bootstraps, like a true red-blooded American! #PerpetutingTheMythOfExceptionalism",
+      "likes": 0,
+      "id": 13
+    }
+  ]
 }

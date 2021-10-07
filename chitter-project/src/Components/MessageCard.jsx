@@ -4,17 +4,14 @@ export default function MessageCard({postData, user}) {
     const {username, profilePic} = user
     const {content, likes} = postData
 
-    const[likeCount, setLikeCount] = useState(0);
-    function increment() {
-        setLikeCount(likeCount + 1);
-    }
+    const[likeCount, setLikeCount] = useState(likes);
     
     return (
         <div>
             <img src={profilePic} alt="pic"/><br/>
             <span>{username}</span>
             <p>{content}</p>
-            <button onClick={increment}>❤</button>
+            <button onClick={() => setLikeCount(likeCount + 1)}>❤</button>
             <span>{likeCount}</span>
         </div>
     )
