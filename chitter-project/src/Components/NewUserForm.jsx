@@ -1,17 +1,26 @@
 import React from 'react'
 
 
-export default function NewPlantForm({ newUser, handleSubmit, handleChange }) {
+export default function NewUserForm({ userObj, handleSignUpSubmit, handleChange }) {
   return (
     <div className="new-user-form">
-      <h2>Sign Up!</h2>
-      <form onSubmit={handleSubmit}>
+      <h2>Sign-up!</h2>
+      <form onSubmit={handleSignUpSubmit}>
         <label>Username:</label>
         <br/>
         <input 
           type="text"
           id="username"
-          value={newUser.username}
+          value={userObj.username}
+          onChange={handleChange}
+        />
+        <br/>
+        <label>Password:</label>
+        <br/>
+        <input 
+          type="text"
+          id="password"
+          value={userObj.password}
           onChange={handleChange}
         />
         <br/>
@@ -20,21 +29,21 @@ export default function NewPlantForm({ newUser, handleSubmit, handleChange }) {
         <input 
           type="text"
           id="profilePic"
-          value={newUser.profilePic}
+          value={userObj.profilePic}
           onChange={handleChange} 
         />
         <br/>
         <label>Bio:</label>
         <br/>
-        <input 
+        <textarea 
           type="text"
           id="bio"
-          value={newUser.bio}
+          value={userObj.bio}
           onChange={handleChange} 
           rows={3} 
         />
         <br/>
-        <input type="submit" value="Sign Up"/>
+        <input type="submit" value="Submit"/>
       </form>
     </div>
   );
