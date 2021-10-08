@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react"
+import { Route, Switch } from "react-router-dom";
 import NavMenu from "./NavMenu";
 import Main from "./Main"
 import UserList from "./UserList";
@@ -125,7 +126,17 @@ function App() {
 
   return (
     <div className="App">
-    <NavMenu 
+      <Switch>
+        <Route exact path="/navmenu">
+    <NavMenu
+      userObj={userObj}
+      handleChange={handleChange}
+      handleSignUpSubmit={handleSignUpSubmit}
+      handleSignInSubmit={handleSignInSubmit}
+    />
+    </Route>
+    <Route exact path="/">
+       <NavMenu
       userObj={userObj}
       handleChange={handleChange}
       handleSignUpSubmit={handleSignUpSubmit}
@@ -134,6 +145,7 @@ function App() {
     <Main 
       users={users} 
       posts={posts} 
+      setPosts={setPosts}
       setCurrentUser={setCurrentUser} 
       currentUser={currentUser}
     />
@@ -141,6 +153,17 @@ function App() {
       currentUser={currentUser}
       setCurrentUser={setCurrentUser}
     />
+    </Route>
+    <Route exact path="/userlist">
+    <UserList users={users}
+      currentUser={currentUser}
+      setCurrentUser={setCurrentUser}
+    />
+    </Route>
+    <Route path="*">
+            <h1>404 not found</h1>
+        </Route>
+    </Switch>
     </div>
   );
 }
