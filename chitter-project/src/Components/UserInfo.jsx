@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function UserInfo({ currentUser, messages }) {
-    const {username, bio} = currentUser
+    const {username, profilePic, bio} = currentUser
 
     
     return (
@@ -9,6 +9,7 @@ export default function UserInfo({ currentUser, messages }) {
             <span>
                 <h1>{username}</h1>
             </span>
+            {/* <img src={profilePic} alt="dog"/> */}
             <h5>{bio}</h5>
             {messages}
         </div>

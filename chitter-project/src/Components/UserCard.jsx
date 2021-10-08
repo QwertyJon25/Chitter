@@ -8,7 +8,7 @@ export default function UserCard({ userData, setCurrentUser }) {
     return (
        <div className="user-card" onClick={() => {setCurrentUser(userData)}}> 
             <img src ={profilePic} alt={username} /> 
-            <span>{username}</span>
+            <h3>{username}</h3>
        </div>
     )
 }

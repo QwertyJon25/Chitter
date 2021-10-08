@@ -10,7 +10,7 @@ export default function UserList({ users, setCurrentUser }) {
     
     return (
         <div className="user-list">
-            <h3>Suggested Accounts:</h3>
+            <h3>Accounts:</h3>
             {userArray}
         </div>
     )

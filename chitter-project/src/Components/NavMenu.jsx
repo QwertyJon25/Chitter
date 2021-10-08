@@ -18,7 +18,7 @@ export default function NavMenu({userObj, handleChange, handleSignUpSubmit, hand
   }
 
   return (
-    <div>
+    <div className="nav-menu">
       <button onClick={handleSignUpVisibility}>Sign-up</button>
       <button onClick={handleSignInVisibility}>Sign-in</button>
       {signUpV && !signInV ?  
