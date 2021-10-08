@@ -15,11 +15,17 @@ function App() {
   // const [username,setUsername] = useState("");
   // const [password, setPassword] = useState("");
 
-  //State Variable for current user:
-  const [theCurrentUser, setTheCurrentUser] = useState({});
+  //State Variable for sign-in user: 
+  const [signedInUser, setSignedInUser] = useState([]);
 
   
   const [currentUser, setCurrentUser] = useState(-1)
+
+  //State Variable for a new post:
+  // const [postObj, setPostObj] = useState({
+  //   content: "",
+  //   likes: 0
+  // })
 
   //State Variable for a new user:
   const [userObj, setUserObj] = useState({
@@ -44,7 +50,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    console.log('cu',theCurrentUser);
+    console.log('cu',signedInUser);
     console.log('uo',userObj);
   });
   
@@ -118,11 +124,43 @@ function App() {
           return false;
         }
       });
-      debugger
-      setTheCurrentUser(userFound);
-      debugger
+      setSignedInUser(userFound);
     })
   }
+
+
+  //Logic for post form:
+  //  function handlePostChange(event){
+  //   const key = event.target.id;
+  //   const value = event.target.value;
+  //   setPostObj({
+  //     ...postObj,
+  //     [key]: value
+  //   });
+  // }
+  // function handlePostSubmit(event){
+  //   event.preventDefault();
+  //   addPost(postObj);
+  //   const emptyPost = {
+  //     content: "",
+  //     likes: 0
+  //   }
+  //   setPostObj({ ...emptyPost });
+  // }
+  // function addPost(postObj){
+  //   fetch("http://localhost:6001/users", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(postObj)
+  //   })
+  //   .then((res) => res.json())
+  //   .then((postObjData) => {
+  //     setUsers([...posts, postObjData])
+  //   })
+  // }
+
 
   return (
     <div className="App">
@@ -148,6 +186,10 @@ function App() {
       setPosts={setPosts}
       setCurrentUser={setCurrentUser} 
       currentUser={currentUser}
+      signedInUser={signedInUser}
+      // handlePostChange={handlePostChange}
+      // handlePostSubmit={handlePostSubmit}
+      // postObj={postObj}
     />
     <UserList users={users}
       currentUser={currentUser}
