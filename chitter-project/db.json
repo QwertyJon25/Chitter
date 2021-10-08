@@ -4,7 +4,7 @@
       "userId": 1,
       "username": "Average Joe",
       "password": "cup_of_Joe",
-      "profilePic": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F03%2F09%2Fchihuahua-light-grey-floor-1900204918-2000.jpg",
+      "profilePic": "https://reductress.com/wp-content/uploads/2019/06/ManWhite.jpg",
       "bio": "Just an everyday guy trying to make ends meet.",
       "id": 1
     },
@@ -12,7 +12,7 @@
       "userId": 2,
       "username": "NPC_001",
       "password": "12345",
-      "profilePic": "https://s36700.pcdn.co/wp-content/uploads/2018/09/black-and-tan-chiahuahua-600x400.jpg.optimal.jpg",
+      "profilePic": "https://i.pinimg.com/564x/9b/28/70/9b28700f1b73e41f6a4c661c80cdb857.jpg",
       "bio": "I have no opinions of my own and have no real personality!",
       "id": 2
     },
@@ -20,7 +20,7 @@
       "userId": 3,
       "username": "Giga Chad",
       "password": "riseNgrind",
-      "profilePic": "https://www.scotsman.com/webimg/b25lY21zOjk5ZDQ2NzY0LTBhNzMtNDM4ZS04ZmNjLTdhYjE1OWYzZDQ1OTo2MzViZjQzZC1iYTdhLTQ5NTktODBlNi05OTc3NWQ4NDJiM2Q=.jpg?width=2048&enable=upscale",
+      "profilePic": "https://melmagazine.com/wp-content/uploads/2021/01/66f-1.jpg",
       "bio": "Just enjoying life and living it on my own terms!!",
       "id": 3
     },
@@ -28,7 +28,7 @@
       "userId": 4,
       "username": "Big-time Idiot",
       "password": "goated",
-      "profilePic": "https://www.k9ofmine.com/wp-content/uploads/2018/01/types-of-chihuahuas-1150x700.jpg",
+      "profilePic": "https://i.redd.it/od63u9ci9ap71.jpg",
       "bio": "I love to voice my terrible opinions. Also, I have really ice-cold takes!",
       "id": 4
     },
@@ -72,7 +72,7 @@
     },
     {
       "userId": 2,
-      "postId": 3,
+      "postId": 2,
       "content": "I love spooky season! Pumpkin spice latte here I come!",
       "likes": 34,
       "id": 6
