@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function MessageCard({postData, user}) {
+export default function MessageCard({postData, user, deletePost}) {
     const {username, profilePic} = user
     const {content, likes} = postData
 

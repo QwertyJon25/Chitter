@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function UserInfo({ currentUser, messages}) {
+export default function UserInfo({ currentUser, messages }) {
     const {username, bio} = currentUser
 
     
