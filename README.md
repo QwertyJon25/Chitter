@@ -1,4 +1,6 @@
-## Chitter
+# Chitter
+
+## Description
 
 Created with React.js as a frontend framework. Featuring React Router and CSS for styling.
 
